@@ -1,7 +1,7 @@
 # weblogic-exp-2017
- exp.txt 是 python利用脚本
+check.py 是漏洞检测脚本
  
- 还有个 zip是 cmd下编译好的 jar包：
+zip是 cmd下编译好的 jar包，是exp包：
  使用方法：
 
 -B Runtime Blind Execute Command maybe you should select os
