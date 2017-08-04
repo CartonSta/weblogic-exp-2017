@@ -1,4 +1,4 @@
-POC£º
+POCï¼š
 
 # -*- coding: utf-8 -*-
 import socket
@@ -53,7 +53,7 @@ def checkVul(res,server_addr,index):
 
 def run(dip,dport,index):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    ##´òÁË²¹¶¡Ö®ºó£¬»á×èÈû£¬ËùÒÔÉèÖÃ³¬Ê±Ê±¼ä£¬Ä¬ÈÏ15s£¬¸ù¾İÇé¿ö×Ô¼ºµ÷Õû
+    ##æ‰“äº†è¡¥ä¸ä¹‹åï¼Œä¼šé˜»å¡ï¼Œæ‰€ä»¥è®¾ç½®è¶…æ—¶æ—¶é—´ï¼Œé»˜è®¤15sï¼Œæ ¹æ®æƒ…å†µè‡ªå·±è°ƒæ•´
     sock.settimeout(15)
     server_addr = (dip, dport)
     #print server_addr
